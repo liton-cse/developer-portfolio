@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.background {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    background: #FD6E0A;
+    border-radius: 5px;
+}
+
+/*header and nevigation style*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+/*banner comment*/
+.banner {
+    margin: 0 180px;
+    align-items: center;
+    display: flex;
+}
+
+.ban-subtitle {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+
+}
+
+.ban-title {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.ban-para {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.btn-second {
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 30px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+}
+
+.btn-third {
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 50px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #FD6E0A;
+}
+
+/*about or main*/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.sectiontitle {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+    margin: 30px;
+}
+
+.aboutinfo-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/*.about-info{
+    margin-left: 80px;
+
+}*/
+.info-title {
+    font-size: 20px;
+    text-align: center;
+    color: #75757
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #474747;
+}
+
+.section2 {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.what-i-do {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.plan-info {
+    text-align: center;
+    font-size: 18px;
+    color: #757575;
+    position: absolute;
+    width: 909px;
+    height: 90px;
+    left: 345px;
+    top: 1725px;
+    F
+}
